@@ -71,7 +71,7 @@ function App() {
   const handleDelete = (id) => {
     const updatedData = data.filter(item => item.id !== id);
     setData(updatedData);
-    localStortitle.setItem("employeeData", JSON.stringify(updatedData));
+    localStorage.setItem("employeeData", JSON.stringify(updatedData));
   };
 
   return (
