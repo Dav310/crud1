@@ -119,7 +119,7 @@ function App() {
                 required
               />
             </div>
-            <div className="col-12">
+            <div className="col-12 d-flex justify-content-center">
               <button type="submit" className="btn btn-primary">
                 {editingId ? "Update" : "Submit"}
               </button>
