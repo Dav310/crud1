@@ -46,7 +46,7 @@ function App() {
 
       const updatedData = [...data, newData];
       setData(updatedData);
-      localStortitle.setItem("employeeData", JSON.stringify(updatedData));
+      localStorage.setItem("employeeData", JSON.stringify(updatedData));
     }
 
     setFormData({
